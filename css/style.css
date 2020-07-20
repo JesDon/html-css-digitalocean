@@ -60,8 +60,45 @@
 /* /HEADER */
 
 /* MAIN */
-/* <!-- section customers -->
-<!-- section /customers -->
+/* section customers */
+.customers{
+  background-color: lightgrey;
+  height: 300px;
+  text-align: center;
+}
+
+.customers p{
+  font-size: 18px;
+  padding: 40px 0 40px 0;
+}
+
+.customers-logo ul{
+  list-style: none;
+}
+
+.customers-logo li{
+  display: inline-block;
+  vertical-align: middle;
+  background-color: red;
+  height: 100px;
+  width: 180px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+  .customers-logo li{
+    height: 70px;
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .customers-logo li{
+    height: 120px;
+    width: 200px;
+  }
+}
+/* section customers */
+
 
 <!-- section deploy -->
 <!-- section /deploy -->
