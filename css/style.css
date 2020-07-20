@@ -1,0 +1,55 @@
+/* VALORI GENERICI */
+/* /VALORI GENERICI */
+
+/* HEADER */
+.header_top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 60px;
+  line-height: 60px;
+  background-color: pink;
+}
+
+.header-nav ul{
+  list-style: none;
+}
+
+.header-nav li{
+  display: inline-block;
+  padding-right: 25px;
+}
+
+.text-right{
+  text-align:
+  
+}
+/* /HEADER */
+
+/* MAIN */
+/* <!-- section customers -->
+<!-- section /customers -->
+
+<!-- section deploy -->
+<!-- section /deploy -->
+
+<!-- section developers -->
+<!-- section /developers -->
+
+<!-- section features -->
+<!-- section /features -->
+
+<!-- section world -->
+<!-- section /world -->
+
+<!-- section teams -->
+<!-- section /teams -->
+
+<!-- section get started -->
+<!-- section /get started -->
+/* /MAIN */
+
+/* FOOTER */
+/* /FOOTER */
