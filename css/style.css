@@ -2,6 +2,7 @@
 /* /VALORI GENERICI */
 
 /* HEADER */
+/* header top */
 .header_top {
   position: fixed;
   width: 100%;
@@ -23,9 +24,39 @@
 }
 
 .text-right{
-  text-align:
-  
+  text-align: right;
 }
+/* /header top */
+
+/* jumbotron */
+.jumbotron{
+  height: 600px;
+  background-color: blue;
+}
+
+.jumbo_text{
+  margin-top: 100px;
+  color: white;
+}
+
+.jumbotron form{
+  margin-top: 100px;
+  background-color: pink;
+  padding: 20px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+  .jumbo_text h1{
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .jumbotron{
+    height: 1000px;
+  }
+}
+/* /jumbotron */
 /* /HEADER */
 
 /* MAIN */
