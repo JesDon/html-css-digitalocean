@@ -51,6 +51,10 @@ text-align: center;
   color: white;
 }
 
+.jumbo_text h3{
+text-align: left;
+}
+
 .jumbotron form{
   margin-top: 100px;
   background-color: pink;
@@ -126,7 +130,6 @@ text-align: center;
 }
 /* section customers */
 
-
 /* <!-- section deploy --> */
 .deploy{
   max-width: 80%;
@@ -167,11 +170,17 @@ h4{
 }
 /* <!-- section /developers --> */
 
-<!-- section features -->
-<!-- section /features -->
 
-<!-- section world -->
-<!-- section /world -->
+/* <!-- section world --> */
+.world{
+  background-color: lightblue;
+}
+
+.table{
+  background-color: blue;
+}
+
+/* <!-- section /world --> */
 
 <!-- section teams -->
 <!-- section /teams -->
