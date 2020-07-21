@@ -117,9 +117,9 @@
 
 /* <!-- section deploy --> */
 .deploy{
-  height: 600px;
   max-width: 80%;
   margin: auto;
+  background-color: yellow;
 }
 
 .deploy-text{
@@ -150,7 +150,10 @@ padding-bottom: 50px;
 
 .deploy-right{
   background-color: green;
-  height: 400px;
+}
+
+.deploy-right-box{
+  margin: 10px 0 50px 0;
 }
 /* <!-- section /deploy --> */
 
