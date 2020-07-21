@@ -170,7 +170,6 @@ h4{
 }
 /* <!-- section /developers --> */
 
-
 /* <!-- section world --> */
 .world{
   background-color: lightblue;
@@ -179,13 +178,15 @@ h4{
 .table{
   background-color: blue;
 }
-
 /* <!-- section /world --> */
 
-<!-- section teams -->
-<!-- section /teams -->
-
-<!-- section get started -->
+/* <!-- section teams -->
+<!-- section /teams --> */
+/*
+<!-- section get started --> */
+.started{
+  background-color: lightgreen;
+}
 <!-- section /get started -->
 /* /MAIN */
 
