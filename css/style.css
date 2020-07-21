@@ -11,6 +11,10 @@ font-size: 22px;
 padding-bottom: 50px;
 text-align: center;
 }
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
 /* /VALORI GENERICI */
 
 /* HEADER */
@@ -23,7 +27,11 @@ text-align: center;
   z-index: 1;
   height: 60px;
   line-height: 60px;
-  background-color: pink;
+  background-color: white;
+}
+
+.header_top img{
+  width: 160px;
 }
 
 .header-nav ul{
@@ -33,37 +41,72 @@ text-align: center;
 .header-nav li{
   display: inline-block;
   padding-right: 25px;
+  font-weight: bold;
+  color: #031b4e;
+  font-size: 15px;
 }
 
 .text-right{
   text-align: right;
 }
+
+.text-right a{
+  color: #0158FF;
+  border: 1px solid #0158FF;
+  padding: 8px;
+  border-radius: 10%;
+}
+
+.glyphicon-menu-hamburger{
+  color: #0158FF;
+  border: none;
+}
 /* /header top */
 
 /* jumbotron */
 .jumbotron{
-  height: 600px;
-  background-color: blue;
+  background-image: url(../img/jumbo-bg.svg);
 }
 
-.jumbo_text{
-  margin-top: 100px;
+.jumbo_text h1{
+  font-weight: bold;
   color: white;
+  margin-top: 100px;
 }
 
 .jumbo_text h3{
 text-align: left;
+color: #F8F9F9;
 }
 
 .jumbotron form{
   margin-top: 100px;
-  background-color: pink;
+  background-color: white;
   padding: 20px;
+  border-radius: 1%;
 }
 
 .jumbotron.do-jumbo{
   margin-bottom: 0;
 }
+
+/* form */
+.form-text p{
+  font-weight: bold;
+}
+
+.form-title p{
+  font-size: 28px;
+}
+
+.form-terms p{
+  font-size: 12px;
+}
+
+.form-text a{
+  color: #0158FF;
+}
+/* /form */
 
 @media screen and (min-width: 992px) and (max-width: 1200px){
   .jumbo_text h1{
@@ -72,11 +115,12 @@ text-align: left;
 }
 
 @media screen and (max-width: 991px){
-  .jumbotron{
-    height: 1000px;
+  .jumbotron form{
+    margin-top: 0;
   }
 }
-/* /jumbotron */
+
+/* /jumbotron
 /* /HEADER */
 
 /* MAIN */
