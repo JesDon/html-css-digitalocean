@@ -15,6 +15,11 @@ text-align: center;
 *{
   font-family: 'Roboto', sans-serif;
 }
+
+a{
+  color: #0158FF;
+  font-weight: bold;
+}
 /* /VALORI GENERICI */
 
 /* HEADER */
@@ -102,10 +107,6 @@ color: #F8F9F9;
 .form-terms p{
   font-size: 12px;
 }
-
-.form-text a{
-  color: #0158FF;
-}
 /* /form */
 
 @media screen and (min-width: 992px) and (max-width: 1200px){
@@ -126,51 +127,52 @@ color: #F8F9F9;
 /* MAIN */
 /* section customers */
 .customers{
-  background-color: lightgrey;
-  height: 300px;
+  background-color: #F3F5F9;
   text-align: center;
 }
 
-.customers p{
-  font-size: 18px;
-  padding: 40px 0 40px 0;
+.cust-title{
+  font-size: 15px;
+  color: #5b6987;
+  font-weight: bold;
+  padding-top: 40px;
 }
 
-.customers-logo ul{
-  list-style: none;
-}
-
-.customers-logo li{
+.customers-logo img{
   display: inline-block;
   vertical-align: middle;
-  background-color: red;
+  width: 160px;
   padding: 10px;
 }
 
+.customers a{
+  font-size: 15px;
+}
+
 @media screen and (min-width: 1200px){
-  .customers-logo li{
+  .customers-logo img{
     width: calc(100% / 6 - 20px);
   }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px){
-  .customers-logo li{
+  .customers-logo img{
     height: 80px;
     width: calc(100% / 6 - 20px);
-  }
-  .customers{
-    height: 320px;
   }
 }
 
 @media screen and (max-width: 992px){
-  .customers-logo li{
+  .customers-logo img{
     height: 100px;
     width: calc(50% - 20px);
   }
-  .customers{
-    height: 500px;
-  }
+}
+
+.customers::after{
+  content: "";
+  display: block;
+  clear: both
 }
 /* section customers */
 
@@ -208,7 +210,7 @@ color: #F8F9F9;
   background-color: lightgreen;
 }
 
-h4{
+.developers h4{
   text-align: center;
   padding: 40px;
 }
