@@ -115,7 +115,7 @@ text-align: left;
     width: calc(100% / 6 - 20px);
   }
   .customers{
-      height: 320px;
+    height: 320px;
   }
 }
 
@@ -125,7 +125,7 @@ text-align: left;
     width: calc(50% - 20px);
   }
   .customers{
-      height: 500px;
+    height: 500px;
   }
 }
 /* section customers */
@@ -175,8 +175,8 @@ h4{
   background-color: lightblue;
 }
 
-.table{
-  background-color: blue;
+.world ul{
+  list-style: none;
 }
 /* <!-- section /world --> */
 
