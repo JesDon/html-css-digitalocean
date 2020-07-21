@@ -4,12 +4,14 @@ h2{
   font-weight: bold;
   padding-top: 40px;
   text-align: center;
+  color: #061B4E;
 }
 
 h3{
-font-size: 22px;
+font-size: 20px;
 padding-bottom: 50px;
 text-align: center;
+color: #5b6987;
 }
 
 *{
@@ -19,6 +21,30 @@ text-align: center;
 a{
   color: #0158FF;
   font-weight: bold;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both
+}
+
+p{
+  color: #5b6987;
+}
+
+.carousel-img{
+width: 600px;
+text-align: center;
+}
+
+.fa-angle-left{
+  font-size: 50px;
+  color: grey;
+}
+
+.fa-angle-right{
+  font-size: 50px;
 }
 /* /VALORI GENERICI */
 
@@ -51,6 +77,11 @@ a{
   font-size: 15px;
 }
 
+.header-nav i{
+  padding-left: 5px;
+  font-size: 18px;
+  vertical-align: middle;
+}
 .text-right{
   text-align: right;
 }
@@ -82,6 +113,7 @@ a{
 .jumbo_text h3{
 text-align: left;
 color: #F8F9F9;
+font-size: 24px;
 }
 
 .jumbotron form{
@@ -98,6 +130,7 @@ color: #F8F9F9;
 /* form */
 .form-text p{
   font-weight: bold;
+  color: #031b4e;
 }
 
 .form-title p{
@@ -131,7 +164,7 @@ color: #F8F9F9;
   text-align: center;
 }
 
-.cust-title{
+.customers h5{
   font-size: 15px;
   color: #5b6987;
   font-weight: bold;
@@ -141,18 +174,13 @@ color: #F8F9F9;
 .customers-logo img{
   display: inline-block;
   vertical-align: middle;
-  width: 160px;
+  width: 180px;
   padding: 10px;
 }
 
-.customers a{
+.customers p{
   font-size: 15px;
-}
-
-@media screen and (min-width: 1200px){
-  .customers-logo img{
-    width: calc(100% / 6 - 20px);
-  }
+  padding-bottom: 20px;
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px){
@@ -169,50 +197,48 @@ color: #F8F9F9;
   }
 }
 
-.customers::after{
-  content: "";
-  display: block;
-  clear: both
-}
 /* section customers */
 
 /* <!-- section deploy --> */
 .deploy{
-  max-width: 80%;
-  margin: auto;
-  background-color: yellow;
+  margin-bottom: 40px;
 }
 
 .deploy-left{
-  border-left: 1px solid black;
+  border-left: 2px solid lightgrey;
   list-style: none;
   margin-left: 80px;
-  background-color: red;
 }
 
 .deploy-left  li{
   font-size: 22px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   text-align: left;
+  color: #5b6987;
 }
 
-.deploy-right{
-  background-color: green;
-}
-
-.deploy-right-box{
-  margin: 10px 0 50px 0;
+.deploy-right-box h4{
+  font-weight: bold;
 }
 /* <!-- section /deploy --> */
 
 /* <!-- section developers --> */
 .developers{
-  background-color: lightgreen;
+  background-color: #F3F5F9;
 }
 
-.developers h4{
+.developers p{
   text-align: center;
-  padding: 40px;
+  font-size: 15px;
+  padding-top: 30px;
+  color: #5b6987;
+  font-weight: bold;
+}
+
+.fa-circle{
+  color: #0061FF;
+  font-size: 10px;
+  padding-bottom: 30px;
 }
 /* <!-- section /developers --> */
 
