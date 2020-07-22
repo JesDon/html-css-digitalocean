@@ -222,6 +222,11 @@ font-size: 24px;
   color: #5b6987;
 }
 
+@media screen and (max-width: 992px){
+  .deploy-left{
+    margin: 0 0 30px 40px;
+  }
+}
 /* <!-- section /deploy --> */
 
 /* <!-- section developers --> */
@@ -296,14 +301,24 @@ font-size: 24px;
 }
 /* <!-- section /world --> */
 
-/* <!-- section teams -->
-<!-- section /teams --> */
-/*
-<!-- section get started --> */
+/* <!-- section get started --> */
 .started{
-  background-color: lightgreen;
+  background-color: #0043BC;
+  padding-bottom: 40px;
 }
-<!-- section /get started -->
+
+.started h2{
+  color: white;
+}
+
+.started a{
+  color: #0158FF;
+  background-color: white;
+  border: 1px solid #0158FF;
+  padding: 10px;
+  border-radius: 8%;
+}
+/* <!-- section /get started --> */
 /* /MAIN */
 
 /* FOOTER */
