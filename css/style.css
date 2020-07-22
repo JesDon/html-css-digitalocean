@@ -38,18 +38,40 @@ p{
   font-size: 16px;
 }
 
+.carousel-box{
+  margin: 0 20px;
+}
+
 .carousel-img{
-width: 600px;
-text-align: center;
+  width: 100%;
+  vertical-align: middle;
 }
 
 .fa-angle-left{
   font-size: 50px;
   color: grey;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
 
 .fa-angle-right{
   font-size: 50px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.blue-circles{
+  padding: 15px 0 30px 0;
+}
+
+@media screen and (max-width: 991px){
+  .carousel-img{
+    width: 70%;
+  }
 }
 /* /VALORI GENERICI */
 
@@ -234,8 +256,12 @@ font-size: 24px;
   background-color: #F3F5F9;
 }
 
-.developers p{
-  text-align: center;
+.developers-box{
+  position: relative;
+}
+
+.developers-box p{
+  /* text-align: center; */
   font-size: 15px;
   padding-top: 30px;
   color: #5b6987;
@@ -322,4 +348,20 @@ font-size: 24px;
 /* /MAIN */
 
 /* FOOTER */
+footer{
+  background-color: #010E28;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer .list-top{
+  color: white;
+  font-weight: bold;
+}
+
+footer li{
+  color: #F8F9F9;
+}
 /* /FOOTER */
