@@ -45,7 +45,7 @@ p{
 
 /* carousel */
 .carousel-box{
-  margin: 0 20px;
+  margin: 0 25px;
 }
 
 .carousel-img{
@@ -341,12 +341,6 @@ p{
 
 .world a:hover{
   color: #0158FF;
-}
-
-.world-list, .fa-angle-right{
-  font-size: 13px;
-  vertical-align: middle;
-  cursor: pointer;
 }
 /* <!-- section /world --> */
 
