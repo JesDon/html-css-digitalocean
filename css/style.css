@@ -2,16 +2,20 @@
 h2{
   font-size: 35px;
   font-weight: bold;
-  padding-top: 40px;
+  padding: 30px 0 20px 0;
   text-align: center;
   color: #061B4E;
 }
 
 h3{
 font-size: 20px;
-padding-bottom: 50px;
+padding-bottom: 55px;
 text-align: center;
 color: #5b6987;
+}
+
+h4{
+  font-weight: bold;
 }
 
 *{
@@ -31,6 +35,7 @@ a{
 
 p{
   color: #5b6987;
+  font-size: 16px;
 }
 
 .carousel-img{
@@ -217,9 +222,6 @@ font-size: 24px;
   color: #5b6987;
 }
 
-.deploy-right-box h4{
-  font-weight: bold;
-}
 /* <!-- section /deploy --> */
 
 /* <!-- section developers --> */
@@ -241,6 +243,16 @@ font-size: 24px;
   padding-bottom: 30px;
 }
 /* <!-- section /developers --> */
+
+/* <!-- section features --> */
+.features{
+  padding-bottom: 40px;
+}
+
+.features a{
+  font-size: 18px;
+}
+/* <!-- /section features --> */
 
 /* <!-- section world --> */
 .world{
