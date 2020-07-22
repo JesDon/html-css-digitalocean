@@ -1,4 +1,14 @@
 /* VALORI GENERICI */
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both
+}
+
 h2{
   font-size: 35px;
   font-weight: bold;
@@ -18,19 +28,14 @@ h4{
   font-weight: bold;
 }
 
-*{
-  font-family: 'Roboto', sans-serif;
-}
-
 a{
   color: #0158FF;
   font-weight: bold;
 }
 
-.clearfix::after{
-  content: "";
-  display: block;
-  clear: both
+a:hover{
+  text-decoration: none;
+  color: #1633ff;
 }
 
 p{
@@ -38,6 +43,7 @@ p{
   font-size: 16px;
 }
 
+/* carousel */
 .carousel-box{
   margin: 0 20px;
 }
@@ -54,6 +60,7 @@ p{
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .fa-angle-right{
@@ -62,17 +69,14 @@ p{
   top: 50%;
   right: 0;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .blue-circles{
   padding: 15px 0 30px 0;
+  cursor: pointer;
 }
-
-@media screen and (max-width: 991px){
-  .carousel-img{
-    width: 70%;
-  }
-}
+/* carousel */
 /* /VALORI GENERICI */
 
 /* HEADER */
@@ -90,6 +94,7 @@ p{
 
 .header_top img{
   width: 160px;
+  cursor: pointer;
 }
 
 .header-nav ul{
@@ -102,6 +107,11 @@ p{
   font-weight: bold;
   color: #031b4e;
   font-size: 15px;
+}
+
+.header-nav li:hover{
+  color: #0158FF;
+  cursor: pointer;
 }
 
 .header-nav i{
@@ -118,6 +128,13 @@ p{
   border: 1px solid #0158FF;
   padding: 8px;
   border-radius: 10%;
+  text-decoration: none;
+}
+
+.text-right a:hover{
+  background-color: #0158FF;
+  color: white;
+  text-decoration: none;
 }
 
 .glyphicon-menu-hamburger{
@@ -138,9 +155,9 @@ p{
 }
 
 .jumbo_text h3{
-text-align: left;
-color: #F8F9F9;
-font-size: 24px;
+  text-align: left;
+  color: #F8F9F9;
+  font-size: 24px;
 }
 
 .jumbotron form{
@@ -180,9 +197,9 @@ font-size: 24px;
     margin-top: 0;
   }
 }
-
 /* /jumbotron
 /* /HEADER */
+
 
 /* MAIN */
 /* section customers */
@@ -223,7 +240,6 @@ font-size: 24px;
     width: calc(50% - 20px);
   }
 }
-
 /* section customers */
 
 /* <!-- section deploy --> */
@@ -242,6 +258,11 @@ font-size: 24px;
   padding-bottom: 20px;
   text-align: left;
   color: #5b6987;
+  cursor: pointer;
+}
+
+.deploy-right-box{
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 992px){
@@ -261,7 +282,6 @@ font-size: 24px;
 }
 
 .developers-box p{
-  /* text-align: center; */
   font-size: 15px;
   padding-top: 30px;
   color: #5b6987;
@@ -317,13 +337,16 @@ font-size: 24px;
 .world a{
   color: #00D7D2;
   font-weight: normal;
-  text-align: right;
 }
 
-.world .fa-angle-right{
+.world a:hover{
+  color: #0158FF;
+}
+
+.world-list, .fa-angle-right{
   font-size: 13px;
   vertical-align: middle;
-  padding-left: 5px;
+  cursor: pointer;
 }
 /* <!-- section /world --> */
 
@@ -344,12 +367,22 @@ font-size: 24px;
   padding: 10px;
   border-radius: 8%;
 }
+
+.started a:hover{
+  background-color: lightgrey;
+}
 /* <!-- section /get started --> */
 /* /MAIN */
+
 
 /* FOOTER */
 footer{
   background-color: #010E28;
+}
+
+footer ul{
+  list-style: none;
+  padding-left: 0;
 }
 
 .footer-left{
@@ -370,6 +403,10 @@ footer{
   display: inline-block;
 }
 
+.footer-social li:hover{
+  color: white;
+}
+
 .footer-social li{
   display: inline-block;
   padding-right: 10px;
@@ -386,15 +423,14 @@ footer{
   padding-top: 50px;
 }
 
-footer ul{
-  list-style: none;
-  padding-left: 0;
-}
-
 .footer-right li{
   color: #5b6987;
   font-weight: bold;
   font-size: 15px;
   padding-top: 8px;
+}
+
+.footer-right li:hover{
+  color: white;
 }
 /* /FOOTER */
